@@ -8,10 +8,10 @@ object Task29_Series9 {
     var i = start
 
     while(i<= end) {
+      val result = i*i
 
-
-      println(s"$i^2")
-      i = i + step
+      print(f"$result%.2f, ")
+      i += step
       }
 
 
