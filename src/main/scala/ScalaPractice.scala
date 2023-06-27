@@ -4,9 +4,9 @@ object ScalaPractice {
     import scala.io.StdIn
 
     println("Enter KG")
-    val size = StdIn.readInt()
-    val grams = size * 1000
-    println("the value in gram is :", grams);
+    val KG = StdIn.readInt()
+    val grams = KG * 1000
+    println("the value in gram is :", grams)
 
   }
 }
