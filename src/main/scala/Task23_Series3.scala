@@ -2,12 +2,20 @@ object Task23_Series3 {
 
   def main(args: Array[String]): Unit = {
 
-    for (i <- 5 to 25){
-      if (i%2 ==1){
-        println(s"$i^2")
-      }
+    val start = 5
+    val end = 25
+    val step = 2
+
+    var i = start
+
+    while (i <= end) {
+      val result = i * i
+
+      print(s"$result, ")
+      i += step
+    }
 
     }
-  }
+
 
 }
